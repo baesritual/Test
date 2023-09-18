@@ -1,5 +1,5 @@
 local GUI = Instance.new("ScreenGui")
-GUI.Parent = script.Parent
+GUI.Parent = game.StarterGui
 GUI.Enabled = true
 
 local FRAME = Instance.new("Frame")

@@ -1,1 +1,8 @@
+local GUI = Instance.new("ScreenGui")
+GUI.Parent = script.Parent
+GUI.Enabled = true
 
+local FRAME = Instance.new("Frame")
+FRAME.Parent = GUI
+FRAME.Visible = true
+FRAME.Size = UDim2.new(1,0,1,0)
